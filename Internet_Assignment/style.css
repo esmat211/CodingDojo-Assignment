@@ -1,0 +1,243 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+#wrapper{
+  width: 950px;
+  height: 1200px;
+  margin: 0px auto;
+
+}
+#header_container{
+  width: 947px;
+  height: 100px;
+
+  margin: 0px;
+  display: inline-flex;
+}
+#logo{
+  height: 60px;
+  width: 60px;
+
+}
+#text{
+  background-color:inherit;
+  height: 60px;
+  width: 200px;
+  position: relative;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: 0px;
+
+}
+#www{
+  background: radial-gradient(#757083, #2F423A,#020202);
+  width: 947px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 0px;
+  position: absolute;
+  display: flex;
+
+}
+#h2{
+  margin-left: 15px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+
+}
+
+
+
+  #main_container{
+    width: 950px;
+    height: 650px;
+    background-color: white;
+
+    display: inline-flex;
+
+}
+#main{
+
+  margin-left:253px;
+  width: 695px;
+  height: 650px;
+  display: inline-block;
+}
+#main_p{
+  /*display: inline-flex;*/
+  height: 100px;
+  width: 690px;
+  display: inline-block;
+
+}
+#h3{
+  color: blue;
+}
+
+#S-C-img{
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#h2{
+  color: white;
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+
+#side{
+  width: 250px;
+  height: 655px;
+  background-color: white;
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+}
+#side_top{
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  margin-right: 10px;
+
+}
+
+
+#h4{
+  padding-top: 10px;
+}
+#p{
+  padding-top: 10px;
+}
+#button1 {
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #757083;
+}
+#button2 {
+  width: 150px;
+  height: 40px;
+  margin-top: 1px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+
+
+  background-color: orange;
+}
+#side_bottom{
+  background-color: white;
+  height: 300px;
+  width: 250px;
+
+}
+#ninja1{
+  position: absolute;
+  margin-left:-140px;
+  margin-top: 90px;
+  height: 100px;
+  width: 70px;
+  display: inline block;
+
+}
+
+/* css code for text on ninja photo*/
+#T-O-I{
+  position: absolute;
+  height: 30px;
+  width: 140px;
+  text-align: center;
+  bottom: 350px;
+  top: 280px;
+  right: 120px;
+  left: 30px;
+  color: white;
+  font-size: 20px;
+
+ }
+/* css code for ninja button */
+ #ninja_button{
+   height: 30px;
+   width: 120px;
+   background-color: lightblue;
+   border-radius: 10px;
+   bottom: 350px;
+   top: 450px;
+   right: 120px;
+   left: 30px;
+   position: absolute;
+   text-align: center;
+   padding: 5px;
+
+ }
+#main_header{
+  background-color: white;
+  height: 60px;
+  width: 695px;
+  display: inline-block;
+  border-bottom: 5px;
+  margin-bottom: 2px;
+}
+#DNS{
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+
+}
+#phone{
+  display: inline block;
+  margin-left: 200px;
+  display: inline-flex;
+  margin-top: 10px;
+}
+#date{
+  vertical-align: top;
+  display: inline-block;
+  height: 20px;
+  width: 300px;
+  margin-top: 0px;
+}
+#p1{
+  padding-top: 1px;
+}
+#main_body{
+
+  height: 600px;
+  width: 695px;
+  display: inline-block;
+}
+
+#footer{
+  margin: 10px;
+  display: inline-block;
+  display: inline-flex;
+  height: 120px;
+  width: 690px;
+  border-color: blue;
+  border-width: 5px;
+  border-style: solid;
+}
+#h5{
+  color: blue;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-flex;
+  height: 15px;
+  width: 547px;
+  display: inline-block;
+}
+
+#p3{
+  font-size: 15px;
+  text-align: left;
+
+}

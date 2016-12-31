@@ -1,0 +1,63 @@
+#B{
+  background-color: pink;
+  border-width: medium;
+  border-color: red;
+  border-width: medium;
+  border-spacing: inherit;
+  page-break-inside: auto;
+  border-style: dashed;
+
+}
+#book-info{
+  color: blue;
+  font-size: 30px;
+  background-color: grean;
+  border-color: red;
+}
+
+#first{
+  font-style: italic;
+  font-size: 20px;
+  color: grean;
+}
+.info{
+  color: darkblue;
+  font-size: 40px;
+}
+div{
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+#p1{
+  color: red;
+  font-size: 25px;
+  background-color: darkblue;
+  padding-left: 20px;
+}
+.I1{
+  align-self: center;
+  border-style: dashed;
+  border-width: medium;
+}
+.o{
+  align-items: center;
+  border-style: dashed;
+  border-color: red;
+  background-color: yellow;
+}
+.u{
+  border-style: dotted;
+  border-color: red;
+  text-align: justify;
+}
+.t{
+  font-size: 20px;
+  color: blue;
+  background-color: inherit;
+  text-shadow: silver;
+  border-style: double;
+  border-spacing: inherit;
+  border-width:
+
+}

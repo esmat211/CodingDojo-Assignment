@@ -1,0 +1,265 @@
+
+*{
+    background-color: #1E5592;
+
+}
+
+
+.header{
+    width: 800px;
+    height: 80px;
+    background-color: #DBD8D1;
+    padding-top: 10px;
+    display: inline-block;
+
+}
+.header li{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #DBD8D1;
+
+
+
+}
+.header ul{
+    display: inline-block;
+    padding-top: 15px;
+    background-color: #DBD8D1;
+
+}
+
+.header a{
+    text-decoration: none;
+    background-color: #DBD8D1;
+}
+
+/*.searchbox{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    vertical-align: top;
+    position: relative;
+    background-color: inherit;*/
+
+
+
+}
+
+.mainpage{
+    height: 300px;
+    width: 800px;
+    /*background-color: #1E5592;*/
+    display: inline-block;
+
+
+
+
+}
+
+.left_side{
+    height: 300px;
+    width: 190px;
+    display: inline-block;
+    background-color: #1F446D;
+
+}
+.user_login{
+
+    width: 170px;
+    height: 240px;
+    background-color: #1F446D;
+    margin: 10px;
+
+}
+
+.user_login p{
+    height: 40px;
+    width: 160px;
+    display: inline-block;
+    display: inline-flex;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    margin: 5px;
+    background-color: inherit;
+}
+
+
+.user_login form{
+    width: 150px;
+    height: 170px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    /*background-color: silver;*/
+    padding: 10px;
+    background-color: #D4DBE3;
+    margin-top: 40px;
+}
+
+.button{
+    height: 30px;
+    width: 160px;
+    position: absolute;
+    margin-left: 13px;
+    border: 3px;
+    border-color: white;
+    /*margin-top: 10px;*/
+}
+
+.button button{
+    height: 30px;
+    width: 160px;
+    color: white;
+    padding: 3px;
+    border-color: white;
+
+}
+
+.main{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    background-color: black;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+}
+
+.right_side{
+    height: 300px;
+    width: 190px;
+    display: inline-block;
+    background-color: #4681C5;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.news{
+    height: 40px;
+    width: 800px;
+    background-color: #DBD8D1;
+    display: inline-block;
+    display: inline-flex;
+
+}
+
+.news h3{
+    background-color: #DBD8D1;
+    margin-top: 13px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.news p{
+    background-color: #DBD8D1;
+    /*margin-bottom: 10px;*/
+    margin-top: 13px;
+    width: 340px;
+    margin-left: 3px;
+    color: blue;
+
+
+}
+
+
+/*Footer*/
+
+.footer{
+
+    height: 100px;
+    width: 800px;
+    /*background-color: silver;*/
+    /*margin-top: 10px;*/
+    display: inline-block;
+    /*margin: 10px;*/
+}
+
+.dominion{
+    height: 100px;
+    width: 253px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #FFFFFF;
+}
+.dominion p1{
+    display: inline-block;
+    background-color: inherit;
+    font-size: 15px;
+    position: relative;
+    position: absolute;
+    width: 170px;
+    margin-left: 5px;
+
+
+}
+
+.green{
+    height: 100px;
+    width: 253px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #FFFFFF;
+}
+
+.green p2{
+    display: inline-block;
+    background-color: inherit;
+    font-size: 15px;
+    position: relative;
+    position: absolute;
+    width: 170px;
+    margin-left: 5px;
+}
+.promise{
+    height: 100px;
+    width: 253px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #FFFFFF;
+
+}
+.promise p3{
+    display: inline-block;
+    background-color: inherit;
+    font-size: 15px;
+    position: relative;
+    position: absolute;
+    width: 170px;
+    margin-left: 5px;
+
+}
+
+/*Footnote*/
+
+
+.footnote{
+
+    height: 40px;
+    width: 800px;
+    background-color: #DBD8D1;
+    display: inline block;
+    margin-top: 5px;
+
+
+}
+
+.footnote li{
+    display: inline-flex;
+    background-color: #DBD8D1;
+    margin-left: 15px;
+    display:inline-block;
+
+}
+
+.footnote ul{
+    background-color: #DBD8D1;
+    padding-top: 10px;
+
+}
+.footnote a{
+    text-decoration: none;
+    background-color: inherit;
+    font-size: 12px;
+}
