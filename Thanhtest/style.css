@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#wrapper{
+    background-color: silver;
+    width: 950px;
+    height:1200px;
+    padding:15px;
+    margin:0 auto;
+}
+.header{
+    background-color: black;
+    width: 920px;
+    height: 40px;
+    margin:0px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+.header img{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.header li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding-top: 10px;
+
+
+
+}
+.header ul{
+    text-decoration: none;
+    vertical-align: top;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: white;
+    margin-left: 100px;
+
+}
+.header h5{
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;;
+
+}
+
+.image{
+    width: 920px;
+    height: 232px;
+    display: inline-block;
+    margin-left: 2px;
+
+}
+
+.rightside{
+    width: 450px;
+    height: 230px;
+    display: inline-block;
+    display: inline-flex;
+    background-color: white;
+    margin-top: 1px;
+}
+.leftside{
+    width: 457px;
+    height: 230px;
+    display: inline-block;
+    background-color: white;
+}
+rightside p{
+    display: inline-block;
+    margin: 15px;
+}
+
+.main{
+    width: 920px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 2px;
+    background-color: inherit;
+
+}
+
+.left{
+    height: 345px;
+    width: 600px;
+    background-color: green;
+    display: inline-block;
+
+}
+.side{
+    height: 349px;
+    width: 315px;
+    background-color: white;
+    display: inline-block;
+}
+.top{
+    height: 175px;
+    width: 599px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 1px;
+}
+.safe{
+    height: 174px;
+    width: 199px;
+    display: inline-block;
+}
+.eco{
+    height: 174px;
+    width: 199px;
+    display: inline-block;
+}
+.help{
+    height: 174px;
+    width: 190px;
+    display: inline-block;
+}
+.bottom{
+    height: 170px;
+    width: 599px;
+    display: inline-block;
+    background-color: white;
+}
+
+.footer{
+    height: 200px;
+    width: 920px;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.contact{
+    height: 199px;
+    width: 306px;
+    display: inline-block;
+    color: white;
+}
+.support{
+    height: 199px;
+    width: 306px;
+    display: inline-block;
+    color: white;
+}
+.want{
+    height: 199px;
+    width: 300px;
+    display: inline-block;
+    color: white;
+}

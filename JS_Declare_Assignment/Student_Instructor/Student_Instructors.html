@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+
+      var students = [
+        {first_name : 'Michael', last_name : 'Jordan'},
+        {first_name : 'John', last_name : 'Rosales'},
+        {first_name : 'Mark', last_name : 'Guillen'},
+        {first_name : 'Kb', last_name : 'Tonel'}
+      ]
+
+      for (var i = 0; i < students.length; i++) {
+        console.log(students[i]);
+        var str = '';
+        for (var blah in students[i]) {
+          str += students[i][blah] + ' ';
+        }
+        console.log(str);
+      }
+
+    </script>
+  </head>
+  <body>
+    Nothing to see here...
+  </body>
+</html>

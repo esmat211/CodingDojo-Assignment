@@ -20,13 +20,20 @@
 // console.log(stuff);
 // console.log(stuff["name"])
 // console.log(stuff.length);
+//
+// for (var i = 0; i < 10; i+1) {
+// if(i%2!=0){
+//   console.log(i);}
+// }
+//
+//
+// for (var i = 0; i < array.length; i++) {
+//     array[i]
+// }
 
-for (var i = 0; i < 10; i+1) {
-if(i%2!=0){
-  console.log(i);}
-}
+for (var i = 0; i < 31; i++); {
+    var pennies = (i*1)*(i*i);
 
+        console.log(pennies);
 
-for (var i = 0; i < array.length; i++) {
-    array[i]
 }

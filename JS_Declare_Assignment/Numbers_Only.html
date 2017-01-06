@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Numbers_Only_Assignment</title>
+        <script>
+
+        function NumbersOnly() {
+        var array = [1, "apple", -3, "orange", 0.5];
+        var newArray = [];
+        for (var i = 0; i < array.length; i++) {
+        if (typeof array[i] === "number") {
+        newArray.push(array[i]);
+            }
+        }
+        return newArray;
+        }
+        console.log(NumbersOnly());
+        </script>
+    </head>
+    <body>
+        <p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+        <button onclick="myFunction()">Click me</button>
+
+        <p id="demo"></p>
+        <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = NumbersOnly();
+        }
+        </script>
+    </body>
+</html>
