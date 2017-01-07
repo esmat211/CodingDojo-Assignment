@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Disappearing Ninja</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script>
+
+
+            $(document).ready(function() {
+                $('#img1').click(function () {
+                    $('#img1').hide();
+                });
+                $('#img2').click(function () {
+                    $('#img2').hide();
+                });
+                $('#img3').click(function () {
+                    $('#img3').hide();
+                });
+                $('#img4').click(function () {
+                    $('#img4').hide();
+                });
+                $('#img5').click(function () {
+                    $('#img5').hide();
+                });
+                $('#img6').click(function () {
+                    $('#img6').hide();
+                });
+
+            });
+
+
+            $('#restore').click(function(){
+              $('#ninja1 img').toggle('slow');
+          });
+
+        </script>
+    </head>
+    <body>
+
+        <style>
+        .ninja1{
+            display: inline-block;
+            margin: 10px;
+        }
+        .ninja1 img{
+            display: inline-block;
+            border: 2px black;
+        }
+        </style>
+        <div class="main">
+            <div class="ninja1">
+                <img id="img1"src="aidorucat.png" height="80" width="80"></img>
+                <img id="img2"src="cherry.jpg" height="80" width="80"></img>
+                <img id="img3"src="coder2.jpg" height="80" width="80"></img>
+                <img id="img4"src="daftpunk.gif" height="80" width="80"></img>
+                <img id="img5"src="defunktocat.png" height="80" width="80"></img>
+                <img id="img6"src="aidorucat.png" height="80" width="80"></img>
+             </div>
+         </div>
+
+         <button id="restore"> Restore</button>
+    </body>
+</html>
